@@ -97,15 +97,18 @@ a {
   }
 }
 
+/* styles/style.scss */
+
+/* ... (previous styles) ... */
+
 /* Media Queries for responsiveness */
 @media screen and (max-width: 768px) {
-  /* Adjust styles for smaller screens */
   .header {
-    padding: 10px; /* Reduce header padding */
+    padding: 10px; /* Reduce header padding for smaller screens */
   }
 
   .header-content {
-    font-size: 1.2rem; /* Decrease font size for header content */
+    font-size: 1.2rem; /* Decrease font size for header content on smaller screens */
   }
 
   .intro-section {
@@ -114,6 +117,17 @@ a {
 
   .main-btn {
     margin-top: 2rem; /* Adjust margin for smaller screens */
+  }
+
+  /* Ensure proper scrolling on smaller screens */
+  body {
+    overflow-y: auto;
+  }
+
+  /* Adjust the image size to fit better on mobile */
+  .header-content .image img {
+    width: 100%; /* Make the image fill its container */
+    max-height: 300px; /* Set a maximum height for the image on mobile */
   }
 }
 
