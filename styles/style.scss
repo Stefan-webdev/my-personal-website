@@ -97,8 +97,25 @@ a {
   }
 }
 
-/* ... (remaining styles) ... */
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .header {
+    padding: 10px; /* Reduce header padding */
+  }
 
+  .header-content {
+    font-size: 1.2rem; /* Decrease font size for header content */
+  }
+
+  .intro-section {
+    margin-bottom: 2rem; /* Adjust margin for smaller screens */
+  }
+
+  .main-btn {
+    margin-top: 2rem; /* Adjust margin for smaller screens */
+  }
+}
 
 
 .intro-section {
