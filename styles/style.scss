@@ -62,6 +62,7 @@ body {
 }
 
 .fab.fa-instagram-square {
+  font-size: 2rem; /* Increase Instagram icon size */
   color: var(--color-secondary);
 }
 
@@ -71,6 +72,49 @@ a {
   color: inherit;
   font-family: inherit;
 }
+
+.intro-section {
+  text-align: center;
+  margin-bottom: 3rem; /* Add triple line spacing */
+}
+
+.main-btn {
+  display: inline-block;
+  margin-top: 3rem; /* Add triple line spacing */
+  text-decoration: none;
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken(var(--color-secondary), 10%); /* Darken on hover */
+  }
+
+  .btn-icon {
+    margin-left: 10px; /* Add space between text and icon */
+  }
+}
+
+/* ... (remaining styles) ... */
+
+
+
+.intro-section {
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the element horizontally */
+  padding: 0 20px; /* Add padding to the sides */
+
+  h1 {
+    font-size: 2rem; /* Increase the font size for the heading if desired */
+  }
+
+  p {
+    font-size: 1rem; /* Adjust the font size for the paragraph if desired */
+  }
+}
+
 
 /* ... (other styles) ... */
 

@@ -70,6 +70,18 @@ a {
   font-family: inherit;
 }
 
+.intro-section {
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the element horizontally */
+  padding: 0 20px; /* Add padding to the sides */
+}
+.intro-section h1 {
+  font-size: 2rem; /* Increase the font size for the heading if desired */
+}
+.intro-section p {
+  font-size: 1rem; /* Adjust the font size for the paragraph if desired */
+}
+
 /* ... (other styles) ... */
 header {
   height: 100vh;
